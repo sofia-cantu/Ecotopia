@@ -1,1 +1,1 @@
-![Imagen representativa](URL_de_la_imagen)
+![Imagen representativa](Assets/Portada.png)
