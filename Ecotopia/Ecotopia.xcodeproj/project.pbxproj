@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251F767E2BD9DCC300A0174B /* MicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251F767D2BD9DCC300A0174B /* MicModel.swift */; };
+		25394CDC2BD8B09C00FB64D3 /* EcotopiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25394CDB2BD8B09C00FB64D3 /* EcotopiaApp.swift */; };
+		25394CDE2BD8B09C00FB64D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25394CDD2BD8B09C00FB64D3 /* ContentView.swift */; };
+		25394CE02BD8B09D00FB64D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25394CDF2BD8B09D00FB64D3 /* Assets.xcassets */; };
+		25394CE32BD8B09D00FB64D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25394CE22BD8B09D00FB64D3 /* Preview Assets.xcassets */; };
+		2598058E2BD8B380009E717D /* FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598058D2BD8B380009E717D /* FullView.swift */; };
+		259805902BD8B387009E717D /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598058F2BD8B387009E717D /* PerfilView.swift */; };
+		259805922BD8B3AE009E717D /* DatosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805912BD8B3AE009E717D /* DatosView.swift */; };
+		259805942BD8B4AA009E717D /* ViceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805932BD8B4AA009E717D /* ViceView.swift */; };
+		259805982BD8BD7A009E717D /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805972BD8BD7A009E717D /* TabModel.swift */; };
+		2598059A2BD8BE18009E717D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805992BD8BE18009E717D /* Home.swift */; };
+		2598059E2BD8F015009E717D /* BienvenidaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598059D2BD8F015009E717D /* BienvenidaView.swift */; };
+		259805A02BD8F9A9009E717D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598059F2BD8F9A9009E717D /* LogoView.swift */; };
+		259805A22BD8F9FC009E717D /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805A12BD8F9FC009E717D /* LogInView.swift */; };
+		259805A42BD9032E009E717D /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805A32BD9032E009E717D /* QuestionsView.swift */; };
+		259805A62BD91443009E717D /* Pregunta1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805A52BD91443009E717D /* Pregunta1View.swift */; };
+		259805A82BD96020009E717D /* MiCiudad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805A72BD96020009E717D /* MiCiudad.swift */; };
+		259805AA2BD963B4009E717D /* MiParque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805A92BD963B4009E717D /* MiParque.swift */; };
+		259805AC2BD963BC009E717D /* MiRio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805AB2BD963BC009E717D /* MiRio.swift */; };
+		259805AE2BD96DDD009E717D /* LlamadaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805AD2BD96DDD009E717D /* LlamadaView.swift */; };
+		259805B12BD98DD9009E717D /* SwiftOpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 259805B02BD98DD9009E717D /* SwiftOpenAI */; };
+		259805B42BD98DF7009E717D /* TypingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805B32BD98DF7009E717D /* TypingIndicatorView.swift */; };
+		259805B62BD98E17009E717D /* LlamadaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805B52BD98E17009E717D /* LlamadaModel.swift */; };
+		259805B82BD98E31009E717D /* ConvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805B72BD98E31009E717D /* ConvModel.swift */; };
+		259805BA2BD9919F009E717D /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805B92BD9919F009E717D /* Home2.swift */; };
+		259805BC2BD999CA009E717D /* ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 259805BB2BD999CA009E717D /* ring.mp3 */; };
+		259805BE2BD99A7E009E717D /* MiDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805BD2BD99A7E009E717D /* MiDashboard.swift */; };
+		259805C02BD99A83009E717D /* MisMetas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805BF2BD99A83009E717D /* MisMetas.swift */; };
+		259805C22BD99A88009E717D /* MiComunidad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259805C12BD99A88009E717D /* MiComunidad.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		251F767D2BD9DCC300A0174B /* MicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicModel.swift; sourceTree = "<group>"; };
+		25394CD82BD8B09C00FB64D3 /* Ecotopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecotopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25394CDB2BD8B09C00FB64D3 /* EcotopiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcotopiaApp.swift; sourceTree = "<group>"; };
+		25394CDD2BD8B09C00FB64D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25394CDF2BD8B09D00FB64D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25394CE22BD8B09D00FB64D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2598058D2BD8B380009E717D /* FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullView.swift; sourceTree = "<group>"; };
+		2598058F2BD8B387009E717D /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		259805912BD8B3AE009E717D /* DatosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosView.swift; sourceTree = "<group>"; };
+		259805932BD8B4AA009E717D /* ViceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViceView.swift; sourceTree = "<group>"; };
+		259805972BD8BD7A009E717D /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		259805992BD8BE18009E717D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2598059D2BD8F015009E717D /* BienvenidaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaView.swift; sourceTree = "<group>"; };
+		2598059F2BD8F9A9009E717D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		259805A12BD8F9FC009E717D /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		259805A32BD9032E009E717D /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		259805A52BD91443009E717D /* Pregunta1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pregunta1View.swift; sourceTree = "<group>"; };
+		259805A72BD96020009E717D /* MiCiudad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCiudad.swift; sourceTree = "<group>"; };
+		259805A92BD963B4009E717D /* MiParque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiParque.swift; sourceTree = "<group>"; };
+		259805AB2BD963BC009E717D /* MiRio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiRio.swift; sourceTree = "<group>"; };
+		259805AD2BD96DDD009E717D /* LlamadaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LlamadaView.swift; sourceTree = "<group>"; };
+		259805B32BD98DF7009E717D /* TypingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingIndicatorView.swift; sourceTree = "<group>"; };
+		259805B52BD98E17009E717D /* LlamadaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LlamadaModel.swift; sourceTree = "<group>"; };
+		259805B72BD98E31009E717D /* ConvModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvModel.swift; sourceTree = "<group>"; };
+		259805B92BD9919F009E717D /* Home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
+		259805BB2BD999CA009E717D /* ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ring.mp3; sourceTree = "<group>"; };
+		259805BD2BD99A7E009E717D /* MiDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiDashboard.swift; sourceTree = "<group>"; };
+		259805BF2BD99A83009E717D /* MisMetas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisMetas.swift; sourceTree = "<group>"; };
+		259805C12BD99A88009E717D /* MiComunidad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiComunidad.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25394CD52BD8B09C00FB64D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259805B12BD98DD9009E717D /* SwiftOpenAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25394CCF2BD8B09C00FB64D3 = {
+			isa = PBXGroup;
+			children = (
+				25394CDA2BD8B09C00FB64D3 /* Ecotopia */,
+				25394CD92BD8B09C00FB64D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25394CD92BD8B09C00FB64D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25394CD82BD8B09C00FB64D3 /* Ecotopia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25394CDA2BD8B09C00FB64D3 /* Ecotopia */ = {
+			isa = PBXGroup;
+			children = (
+				25394CDB2BD8B09C00FB64D3 /* EcotopiaApp.swift */,
+				2598059F2BD8F9A9009E717D /* LogoView.swift */,
+				259805A12BD8F9FC009E717D /* LogInView.swift */,
+				259805A32BD9032E009E717D /* QuestionsView.swift */,
+				259805A52BD91443009E717D /* Pregunta1View.swift */,
+				2598059D2BD8F015009E717D /* BienvenidaView.swift */,
+				25394CDD2BD8B09C00FB64D3 /* ContentView.swift */,
+				259805992BD8BE18009E717D /* Home.swift */,
+				259805B92BD9919F009E717D /* Home2.swift */,
+				259805A72BD96020009E717D /* MiCiudad.swift */,
+				259805A92BD963B4009E717D /* MiParque.swift */,
+				259805AB2BD963BC009E717D /* MiRio.swift */,
+				259805BD2BD99A7E009E717D /* MiDashboard.swift */,
+				259805BF2BD99A83009E717D /* MisMetas.swift */,
+				259805C12BD99A88009E717D /* MiComunidad.swift */,
+				259805AD2BD96DDD009E717D /* LlamadaView.swift */,
+				2598058F2BD8B387009E717D /* PerfilView.swift */,
+				259805912BD8B3AE009E717D /* DatosView.swift */,
+				259805BB2BD999CA009E717D /* ring.mp3 */,
+				259805932BD8B4AA009E717D /* ViceView.swift */,
+				2598058D2BD8B380009E717D /* FullView.swift */,
+				259805B22BD98DE3009E717D /* SubViews */,
+				259805952BD8BD56009E717D /* Model */,
+				25394CDF2BD8B09D00FB64D3 /* Assets.xcassets */,
+				25394CE12BD8B09D00FB64D3 /* Preview Content */,
+			);
+			path = Ecotopia;
+			sourceTree = "<group>";
+		};
+		25394CE12BD8B09D00FB64D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25394CE22BD8B09D00FB64D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		259805952BD8BD56009E717D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				259805972BD8BD7A009E717D /* TabModel.swift */,
+				251F767D2BD9DCC300A0174B /* MicModel.swift */,
+				259805B52BD98E17009E717D /* LlamadaModel.swift */,
+				259805B72BD98E31009E717D /* ConvModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		259805B22BD98DE3009E717D /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				259805B32BD98DF7009E717D /* TypingIndicatorView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25394CD72BD8B09C00FB64D3 /* Ecotopia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25394CE62BD8B09D00FB64D3 /* Build configuration list for PBXNativeTarget "Ecotopia" */;
+			buildPhases = (
+				25394CD42BD8B09C00FB64D3 /* Sources */,
+				25394CD52BD8B09C00FB64D3 /* Frameworks */,
+				25394CD62BD8B09C00FB64D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecotopia;
+			packageProductDependencies = (
+				259805B02BD98DD9009E717D /* SwiftOpenAI */,
+			);
+			productName = Ecotopia;
+			productReference = 25394CD82BD8B09C00FB64D3 /* Ecotopia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25394CD02BD8B09C00FB64D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					25394CD72BD8B09C00FB64D3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 25394CD32BD8B09C00FB64D3 /* Build configuration list for PBXProject "Ecotopia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25394CCF2BD8B09C00FB64D3;
+			packageReferences = (
+				259805AF2BD98DD9009E717D /* XCRemoteSwiftPackageReference "SwiftOpenAI" */,
+			);
+			productRefGroup = 25394CD92BD8B09C00FB64D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25394CD72BD8B09C00FB64D3 /* Ecotopia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25394CD62BD8B09C00FB64D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25394CE32BD8B09D00FB64D3 /* Preview Assets.xcassets in Resources */,
+				25394CE02BD8B09D00FB64D3 /* Assets.xcassets in Resources */,
+				259805BC2BD999CA009E717D /* ring.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25394CD42BD8B09C00FB64D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259805902BD8B387009E717D /* PerfilView.swift in Sources */,
+				25394CDE2BD8B09C00FB64D3 /* ContentView.swift in Sources */,
+				259805BE2BD99A7E009E717D /* MiDashboard.swift in Sources */,
+				25394CDC2BD8B09C00FB64D3 /* EcotopiaApp.swift in Sources */,
+				259805922BD8B3AE009E717D /* DatosView.swift in Sources */,
+				259805AA2BD963B4009E717D /* MiParque.swift in Sources */,
+				259805B82BD98E31009E717D /* ConvModel.swift in Sources */,
+				2598058E2BD8B380009E717D /* FullView.swift in Sources */,
+				259805AC2BD963BC009E717D /* MiRio.swift in Sources */,
+				259805BA2BD9919F009E717D /* Home2.swift in Sources */,
+				259805AE2BD96DDD009E717D /* LlamadaView.swift in Sources */,
+				259805A02BD8F9A9009E717D /* LogoView.swift in Sources */,
+				251F767E2BD9DCC300A0174B /* MicModel.swift in Sources */,
+				259805B42BD98DF7009E717D /* TypingIndicatorView.swift in Sources */,
+				259805A62BD91443009E717D /* Pregunta1View.swift in Sources */,
+				259805A82BD96020009E717D /* MiCiudad.swift in Sources */,
+				259805C02BD99A83009E717D /* MisMetas.swift in Sources */,
+				259805A42BD9032E009E717D /* QuestionsView.swift in Sources */,
+				259805982BD8BD7A009E717D /* TabModel.swift in Sources */,
+				2598059A2BD8BE18009E717D /* Home.swift in Sources */,
+				259805B62BD98E17009E717D /* LlamadaModel.swift in Sources */,
+				259805A22BD8F9FC009E717D /* LogInView.swift in Sources */,
+				259805942BD8B4AA009E717D /* ViceView.swift in Sources */,
+				259805C22BD99A88009E717D /* MiComunidad.swift in Sources */,
+				2598059E2BD8F015009E717D /* BienvenidaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25394CE42BD8B09D00FB64D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25394CE52BD8B09D00FB64D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25394CE72BD8B09D00FB64D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ecotopia/Preview Content\"";
+				DEVELOPMENT_TEAM = F895W2R8B7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow microphone";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = Allow;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgl.Ecotopia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25394CE82BD8B09D00FB64D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ecotopia/Preview Content\"";
+				DEVELOPMENT_TEAM = F895W2R8B7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow microphone";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = Allow;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgl.Ecotopia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25394CD32BD8B09C00FB64D3 /* Build configuration list for PBXProject "Ecotopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25394CE42BD8B09D00FB64D3 /* Debug */,
+				25394CE52BD8B09D00FB64D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25394CE62BD8B09D00FB64D3 /* Build configuration list for PBXNativeTarget "Ecotopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25394CE72BD8B09D00FB64D3 /* Debug */,
+				25394CE82BD8B09D00FB64D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		259805AF2BD98DD9009E717D /* XCRemoteSwiftPackageReference "SwiftOpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftBeta/SwiftOpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		259805B02BD98DD9009E717D /* SwiftOpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 259805AF2BD98DD9009E717D /* XCRemoteSwiftPackageReference "SwiftOpenAI" */;
+			productName = SwiftOpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 25394CD02BD8B09C00FB64D3 /* Project object */;
+}
